@@ -142,7 +142,7 @@ h4{
   h1{
     padding-top: 30px;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 35px;
   }
   h4{
     font-weight: 400;
@@ -150,6 +150,14 @@ h4{
   }
   .screenistrue{
     width: 100vw;
+    min-height: 100vh;
+    max-height: 100%;
+    display: block;
+  }
+  .screenisfalse{
+    width: 100vw;
+    min-height: 100vh;
+    max-height: 100%;
     display: block;
   }
   .intro{ 
@@ -158,11 +166,50 @@ h4{
   }
   .abovePart{
     width: 100vw;
-    height: 55vh;
+    max-width: 100vw;
+    height: 45vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
+  }
+  .small-glassisfalse{
+    width: 50%;
+    backdrop-filter: blur(21px);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: unset; 
+  }
+  .small-glassistrue{
+    width: 50%;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: unset; 
+  }
+  .long-glassisfalse{
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    margin:auto;
+    padding: 30px;
+  }
+  .long-glassistrue{
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 800;
+    margin:auto;
+    padding: 30px;
   }
   .belowPart{
     width: 100vw;
