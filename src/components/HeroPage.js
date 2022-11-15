@@ -225,14 +225,14 @@ class HeroPage extends Component {
                     <div className="abovePart">
                         <div className={`small-glassis${this.state.dark}`}>
                             <div id="break-label">Break</div>
-                            <button id="break-decrement" class={`buttonis${this.state.dark}`} onClick={this.handleBreak}>-</button>
-                            <button id="break-increment" class={`buttonis${this.state.dark}`} onClick={this.handleBreak}>+</button>
+                            <button id="break-decrement" className={`buttonis${this.state.dark}`} onClick={this.handleBreak}>-</button>
+                            <button id="break-increment" className={`buttonis${this.state.dark}`} onClick={this.handleBreak}>+</button>
                             <div id="break-length">{this.state.breaklen}</div>
                         </div>
                         <div className={`small-glassis${this.state.dark}`}>
                             <div id="session-label">Session</div>
-                            <button id="session-decrement" class={`buttonis${this.state.dark}`} onClick={this.handleSession}>-</button>
-                            <button id="session-increment" class={`buttonis${this.state.dark}`} onClick={this.handleSession}>+</button>
+                            <button id="session-decrement" className={`buttonis${this.state.dark}`} onClick={this.handleSession}>-</button>
+                            <button id="session-increment" className={`buttonis${this.state.dark}`} onClick={this.handleSession}>+</button>
                             <div id="session-length">{this.state.sessionlen}</div>
                         </div>
                     </div>
@@ -242,9 +242,9 @@ class HeroPage extends Component {
                             <div id="time-left">{this.state.progress}</div>
                         </div>
                         <div className="footer">
-                            <button id="start_stop" class={`buttonis${this.state.dark}`} onClick={this.handlePause}>II</button>
-                            <button id="reset" class={`buttonis${this.state.dark}`} onClick={this.handleReset}>RE</button>
-                            <button id="dogsoup" class={`buttonis${this.state.dark}`} onClick={this.handleClick}>(=</button>
+                            <button id="start_stop" className={`buttonis${this.state.dark}`} onClick={this.handlePause}>II</button>
+                            <button id="reset" className={`buttonis${this.state.dark}`} onClick={this.handleReset}>RE</button>
+                            <button id="dogsoup" className={`buttonis${this.state.dark}`} onClick={this.handleClick}>(=</button>
                         </div>
                     </div>
                 </div>
